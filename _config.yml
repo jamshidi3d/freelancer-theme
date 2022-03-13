@@ -1,8 +1,8 @@
 # Site settings
 title: custom
 email: your-email@domain.com
-url: https://github.com/jamshidi3d/freelancer-theme
-baseurl: /freelancer-theme
+url: https://github.com/jamshidi3d/portfolio
+baseurl: /portfolio
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
 skills: "Web Developer - Graphic Artist - User Experience Designer"
