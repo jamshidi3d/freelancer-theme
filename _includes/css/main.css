@@ -80,6 +80,142 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+
+hr.gear-light,
+hr.gear-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    overflow: visible;
+}
+
+hr.gear-light:after,
+hr.gear-primary:after {
+    content: "\f013";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.gear-light {
+    border-color: #fff;
+}
+
+hr.gear-light:after {
+    color: #fff;
+    background-color: #{{ site.color.primary }};
+}
+
+hr.gear-primary {
+    border-color: #{{ site.color.secondary }};
+}
+
+hr.gear-primary:after {
+    color: #{{ site.color.secondary }};
+    background-color: #fff;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+hr.laptopcode-light,
+hr.laptopcode-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    overflow: visible;
+}
+
+hr.laptopcode-light:after,
+hr.laptopcode-primary:after {
+    content: "\f5fc";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.laptopcode-light {
+    border-color: #fff;
+}
+
+hr.laptopcode-light:after {
+    color: #fff;
+    background-color: #{{ site.color.primary }};
+}
+
+hr.laptopcode-primary {
+    border-color: #{{ site.color.secondary }};
+}
+
+hr.laptopcode-primary:after {
+    color: #{{ site.color.secondary }};
+    background-color: #fff;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+
+hr.envelope-light,
+hr.envelope-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    overflow: visible;
+}
+
+hr.envelope-light:after,
+hr.envelope-primary:after {
+    content: "\f0e0";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.envelope-light {
+    border-color: #fff;
+}
+
+hr.envelope-light:after {
+    color: #fff;
+    background-color: #{{ site.color.primary }};
+}
+
+hr.envelope-primary {
+    border-color: #{{ site.color.secondary }};
+}
+
+hr.envelope-primary:after {
+    color: #{{ site.color.secondary }};
+    background-color: #fff;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+
+
 header {
     text-align: center;
     color: #fff;
@@ -101,7 +237,7 @@ header .intro-text .name {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 header .intro-text .skills {
@@ -149,7 +285,7 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }

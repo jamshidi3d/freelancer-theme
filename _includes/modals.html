@@ -13,30 +13,40 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <hr class="gear-primary">
+                            {% if post.altimg %}
+                                <img src="img/portfolio/{{ post.altimg }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            {% else %}
+                                {% if post.video %}
+                                    <iframe width="853" height="480" src="{{ post.video }}" title="{{ post.title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                {% else %}
+                                    {% if post.img %}
+                                        <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                                    {% endif %}
+                                {% endif %}
+                            {% endif %}
+
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
                             {% endif %}
                             <ul class="list-inline item-details">
-                                {% if post.client %}
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                {% if post.project %}
+                                    <li>Project:
+                                        <strong><a href="{{ post.project_link }}">{{ post.project }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.project-date %}
                                     <li>Date:
-                                        <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                        </strong>
+                                        <strong>{{ post.project-date }}</strong>
                                     </li>
                                 {% endif %}
-                                {% if post.category %}
+                                <!-- {% if post.category %}
                                     <li>Service:
                                         <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
                                         </strong>
                                     </li>
-                                {% endif %}
+                                {% endif %} -->
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>

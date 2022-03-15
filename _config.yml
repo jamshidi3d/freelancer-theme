@@ -1,6 +1,7 @@
 # Site settings
 title: MohammadHossein Jamshidi
-email: your-email@domain.com
+short_title: MH Jamshidi
+email: jamshidi3d@gmail.com
 url: https://github.com/jamshidi3d/portfolio
 baseurl: /portfolio
 future: true
@@ -42,16 +43,8 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  - title: linkedin
+    url: https://www.linkedin.com/in/mohammadhossein-jamshidi-5a493366/
 
 # Postal address (add as many lines as necessary)
 address:
