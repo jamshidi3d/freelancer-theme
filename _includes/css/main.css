@@ -125,8 +125,8 @@ hr.gear-primary:after {
     margin: 0 auto;
 }
 
-hr.laptopcode-light,
-hr.laptopcode-primary {
+hr.box-light,
+hr.box-primary {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -136,9 +136,9 @@ hr.laptopcode-primary {
     overflow: visible;
 }
 
-hr.laptopcode-light:after,
-hr.laptopcode-primary:after {
-    content: "\f5fc";
+hr.box-light:after,
+hr.box-primary:after {
+    content: "\f1b2";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -147,20 +147,65 @@ hr.laptopcode-primary:after {
     font-size: 2em;
 }
 
-hr.laptopcode-light {
+hr.box-light {
     border-color: #fff;
 }
 
-hr.laptopcode-light:after {
+hr.box-light:after {
     color: #fff;
     background-color: #{{ site.color.primary }};
 }
 
-hr.laptopcode-primary {
+hr.box-primary {
     border-color: #{{ site.color.secondary }};
 }
 
-hr.laptopcode-primary:after {
+hr.box-primary:after {
+    color: #{{ site.color.secondary }};
+    background-color: #fff;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+
+hr.coffee-light,
+hr.coffee-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    overflow: visible;
+}
+
+hr.coffee-light:after,
+hr.coffee-primary:after {
+    content: "\f0f4";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.coffee-light {
+    border-color: #fff;
+}
+
+hr.coffee-light:after {
+    color: #fff;
+    background-color: #{{ site.color.primary }};
+}
+
+hr.coffee-primary {
+    border-color: #{{ site.color.secondary }};
+}
+
+hr.coffee-primary:after {
     color: #{{ site.color.secondary }};
     background-color: #fff;
 }
@@ -236,8 +281,8 @@ header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 500;
+    font-size: 1.5em;
+    font-weight: 700;
 }
 
 header .intro-text .skills {
