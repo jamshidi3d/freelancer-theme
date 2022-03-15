@@ -31,7 +31,7 @@ disqus_shortname: Jamshidi3d
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 393E46 #80B3FF
-  primary-rgb: "126,202,156" #"128,179,255"
+  primary-rgb: "83,184,187" #"128,179,255"
   secondary: 232931 #FD6E8A
   secondary-dark: 121212 #A2122F
 
