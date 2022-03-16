@@ -14,33 +14,52 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="gear-primary">
+                            <!-- Alternative image (.gif etc.) -->
                             {% if post.altimg %}
                                 <img src="img/portfolio/{{ post.altimg }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             {% else %}
+                                <!-- Video -->
                                 {% if post.video %}
-                                    <iframe width="853" height="480" src="{{ post.video }}" title="{{ post.title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <video width="900" height="650" controls>
+                                        <source src="video/portfolio/{{ post.video }}" type="video/mp4">
+                                    </video>
                                 {% else %}
+                                    <!-- Default image -->
                                     {% if post.img %}
                                         <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                                     {% endif %}
                                 {% endif %}
                             {% endif %}
-
+                            <!-- Description -->
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
                             {% endif %}
                             <ul class="list-inline item-details">
+                                <!-- Project -->
+                                <!-- Check if project link exists -->
                                 {% if post.project %}
-                                    <li>Project:
-                                        <strong><a href="{{ post.project_link }}">{{ post.project }}</a>
+                                    {% if post.project_link %}
+                                        <strong><a href="{{ post.project-link }}">{{ post.project }}</a>
                                         </strong>
-                                    </li>
+                                    {% else %}
+                                        <li>Project:
+                                            <strong>{{ post.project }}</strong>
+                                        </li>
+                                    {% endif %}
                                 {% endif %}
+                                <!-- Date -->
                                 {% if post.project-date %}
                                     <li>Date:
                                         <strong>{{ post.project-date }}</strong>
                                     </li>
                                 {% endif %}
+                                    
+                                <!-- {% for tool in post.tools %}
+                                    <li>Tools:
+                                        <strong><a href="{{ post.project_link }}">{{ post.project }}</a>
+                                        </strong>
+                                    </li>
+                                {% endif %} -->
                                 <!-- {% if post.category %}
                                     <li>Service:
                                         <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
