@@ -20,7 +20,7 @@
                             {% else %}
                                 <!-- Video -->
                                 {% if post.video %}
-                                    <video width="900" height="650" controls>
+                                    <video width="100%" controls>
                                         <source src="video/portfolio/{{ post.video }}" type="video/mp4">
                                     </video>
                                 {% else %}
@@ -47,13 +47,26 @@
                                         </li>
                                     {% endif %}
                                 {% endif %}
+                                <!-- Client -->
+                                {% if post.client %}
+                                    <li>Client:
+                                        <strong>{{ post.client }}</strong>
+                                    </li>
+                                {% endif %}
                                 <!-- Date -->
                                 {% if post.project-date %}
                                     <li>Date:
                                         <strong>{{ post.project-date }}</strong>
                                     </li>
                                 {% endif %}
-                                    
+                                <!-- Tools -->
+                                {% if post.tools %}
+                                    <li>Tools:
+                                        {% for tool in post.tools %}
+                                        <strong> <img src="{{ tool }}" height="100%" alt="Tool Used"> </strong>
+                                        {% endfor %}
+                                    </li>
+                                {% endif %}
                                 <!-- <li>Tools: -->
                                     <!-- <strong><a href="{{ post.project_link }}">{{ post.project }}</a> -->
                                     <!-- </strong> -->
