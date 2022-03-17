@@ -12,5 +12,5 @@ video: khosrobot.mp4
 description: <div align="left">Precise kind of rigging and fast, but fairly hard to implement. It is mostly useful for mechanical rigs because of pseudo-primitive shapes that are naturally used in them but also applicable to organics with some approximations.<br>This rig includes some interesting applications of calculus and geometrical algorithms. For example the main wheel of the character rolls precisely on its bottom surface and never enters to it. The surface itself has a controller and can be transformed separately. Newton-Raphson method is used here to solve corresponding equations(Sounds weird but it's real!). Character's teeth push each other aside when they collide using simple calculations. Notice to rotation of arm hinges and telescope feature of them. A bunch of geometrical equations handle those. And finally like most of mechanical riggings, some linear algebra is taken into account.<br>I've done this rig for an AR project. Geometry-based rigs like this can be easily exported to game engines and can be used in mobile platforms, because they are low-level and fast.</div>
 project: Khosrobot
 project-link: 
-tools: ["Blender.svg"]
+tools: ["Blender.svg", "Unity.svg"]
 ---
