@@ -62,15 +62,8 @@
                                 <!-- Tools -->
                                 {% if post.tools %}
                                     <li>Tools:
-                                        <style>
-                                            .img-container {
-                                              text-align: center;
-                                            }
-                                        </style>
                                         {% for tool in post.tools %}
-                                            <div style = "img-container">
-                                                <strong> <img src="img/logo/{{ tool }}" height="20" alt="Tool Used"> </strong>
-                                            </div>
+                                            <strong> <img style="vertical-align:middle" src="img/logo/{{ tool }}" height="20" alt="Tool Used"> </strong>
                                         {% endfor %}
                                     </li>
                                 {% endif %}
