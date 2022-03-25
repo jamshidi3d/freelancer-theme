@@ -7,7 +7,7 @@ alt: image-alt
 project-date: July 2016
 client: 
 category: Programming
-title: FeelPhysics (Interactive Physics Experiments)
+title: FeelPhysics (Interactive Experiments)
 video: 
 description: <div align="left">FeelPhysics is an educational game which consists of a set of fully interactive physics experiments. </div>
 project: FeelPhysics
