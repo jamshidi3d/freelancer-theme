@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 6
+modal-id: 7
 date: 2016-07-17
 img: submarine.png
 alt: image-alt
@@ -9,8 +9,8 @@ client:
 category: Programming
 title: FeelPhysics (Interactive Physics Experiments)
 video: 
-description: <div align="left">FeelPhysics is interesting</div>
+description: <div align="left">FeelPhysics is an educational game which consists of a set of fully interactive physics experiments. </div>
 project: FeelPhysics
 project-link: 
-tools: ["Python.svg", "Unity.svg", "Blender.svg"]
+tools: ["CSharp.svg", "Unity.svg", "3dsMax.svg", "Blender.svg"]
 ---
