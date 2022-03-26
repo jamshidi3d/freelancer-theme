@@ -12,5 +12,5 @@ video:
 description: <div align="left">These scripts export a custom animation(both model and hair) from Maya and import in Blender. The tool was needed because of shader/renderer license problem occured for Deedema team on "Hardambil" project</div>
 project: Hardambil
 project-link: 
-tools: ["Maya.svg", "Blender.svg"]
+tools: ["Python.svg", "Maya.svg", "Blender.svg"]
 ---
