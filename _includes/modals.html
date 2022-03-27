@@ -39,7 +39,8 @@
                                 <!-- Check if project link exists -->
                                 {% if post.project %}
                                     {% if post.project_link %}
-                                        <strong><a href="{{ post.project-link }}">{{ post.project }}</a>
+                                        <strong>
+                                            <a href="{{ post.project-link }}">{{ post.project }}</a>
                                         </strong>
                                     {% else %}
                                         <li>Project:
