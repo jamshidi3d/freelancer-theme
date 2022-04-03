@@ -6,6 +6,8 @@ url: https://github.com/jamshidi3d/portfolio
 baseurl: /portfolio
 # future: true
 # timezone: GMT
+about1: Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+about2: Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "Physics, Programming, Tool development, Technical Art"
 skills: "Physics Programmer - Technical Artist"
