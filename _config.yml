@@ -6,9 +6,10 @@ url: https://github.com/jamshidi3d/portfolio
 baseurl: /portfolio
 # future: true
 # timezone: GMT
-about1: I'm a PhD student of physics(gravitation & cosmolgy). On 2012 I started my career in the game industy with modeling in "Parvaneh" project. Very soon in the same project, because of my background in math&physics and iterest in technical arts I started tool development and making physics-based assets. 
-#Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
-about2: Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+about1: I'm a PhD student of physics(gravitation & cosmolgy). On 2012 I started my career in the game industy with modeling in "Parvaneh" project. Very soon in the same project, because of my background in math&physics and iterest in technical arts I started tool development and making physics-based assets.
+
+about2: In academia field I gradually headed to computational physics(ofcourse, I love other areas in physics) which was a good context for upgrading both my scientific and game-production skills. <br> Now, together with research in cosomology(my old dream), I'm working on physics-based tools to help tech-artists & animators. 
+
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "Physics, Programming, Tool development, Technical Art"
 skills: "Physics Programmer - Technical Artist"
@@ -16,7 +17,7 @@ meta_author: Jamshidi MohammadHossein
 
 
 # Google webmaster tools
-google_verify: <meta name="google-site-verification" content="zwY6pkYGDK0eOzFK09OCv95iNUCF7r3yKmfz2LJL5Ag" />
+google_verify: googlecaffd31da6f27a98.html
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
