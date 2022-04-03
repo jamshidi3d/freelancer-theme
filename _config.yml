@@ -6,11 +6,12 @@ url: https://github.com/jamshidi3d/portfolio
 baseurl: /portfolio
 # future: true
 # timezone: GMT
-about1: I'm a PhD student of physics(gravitation & cosmolgy). On 2012 I started my career in the game industy with modeling in "Parvaneh" project. Very soon in the same project, because of my background in math&physics and iterest in technical arts I started tool development and making physics-based assets.
+about1: I'm a PhD student of physics working on gravitation & cosmolgy. On 2012 I started my career in the game industy with modeling in "Parvaneh" project. Very soon in the same project, because of my background in math&physics and iterest in technical arts I started tool development and making physics-based assets.
 
 about2: In academia field I gradually headed to computational physics(ofcourse, I love other areas in physics) which was a good context for upgrading both my scientific and game-production skills. Now, together with research in cosomology(my old dream), I'm working on physics-based tools to help tech-artists & animators. 
 
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: MohammadHossein Jamshidi tech-arts portfolio
+#"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "Physics, Programming, Tool development, Technical Art"
 skills: "Physics Programmer - Technical Artist"
 meta_author: Jamshidi MohammadHossein
