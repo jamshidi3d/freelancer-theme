@@ -1,10 +1,10 @@
 ---
 layout: default
 modal-id: 2
-date: 2018-10-09
+date: 2021-03-09
 img: compute_shader_effects.png
 alt: image-alt
-project-date: October 2018
+project-date: March 2021
 client: 
 category: Scripting
 title: Compute-Shader Effects

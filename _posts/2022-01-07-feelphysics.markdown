@@ -1,10 +1,10 @@
 ---
 layout: default
 modal-id: 7
-date: 2016-07-17
+date: 2019-02-17
 img: submarine.png
 alt: image-alt
-project-date: July 2016
+project-date: February 2019
 client: 
 category: Programming
 title: Physics Simulations

@@ -1,10 +1,10 @@
 ---
 layout: default
 modal-id: 5
-date: 2018-10-09
+date: 2019-01-15
 img: character_rig.png
 alt: image-alt
-project-date: October 2018
+project-date: January 2019
 client: 
 category: Rigging / Scripting
 title: Game-Ready Stylized Character Rigging

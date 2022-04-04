@@ -4,7 +4,7 @@ modal-id: 6
 date: 2018-07-16
 img: maya2blender.png
 alt: image-alt
-project-date: October 2018
+project-date: July 2018
 client: 
 category: Scripting
 title: Maya To Blender Animation Exporter

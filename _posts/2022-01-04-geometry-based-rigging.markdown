@@ -1,10 +1,10 @@
 ---
 layout: default
 modal-id: 4
-date: 2018-10-09
+date: 2018-09-09
 img: khosrobot.png
 alt: image-alt
-project-date: October 2018
+project-date: September 2018
 client: Roshd Magazine
 category: Rigging / Scripting
 title: Geometry-Based Rigging
