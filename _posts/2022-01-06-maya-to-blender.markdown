@@ -9,7 +9,7 @@ client:
 category: Scripting
 title: Maya To Blender Animation Exporter
 video: maya2blender.mp4
-description: <div align="left">These set of scripts export a custom animation(both model and hair) from Maya and imports them into Blender. This tool was needed because of shader/renderer license problem occured for Deedema team on "Hardambil" project.</div>
+description: <div align="left">This set of scripts exports a custom animation(both model and hair) from Maya and imports them into Blender. This tool was needed because of the shader/renderer license problem that occurred for Deedema team on the "Hardambil" project.</div>
 project: Hardambil
 project-link: 
 tools: ["Python.svg", "Maya.svg", "Blender.svg"]

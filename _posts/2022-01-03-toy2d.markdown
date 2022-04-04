@@ -9,7 +9,7 @@ client:
 category: Scripting
 title: Toy2d (Hajmineh)
 video: toy2d.mp4
-description: <div align="left">Toy2d (Hajmineh) is a set of interesting cardboard-craft kits together with how-to animations and AR-interactions. Toy2d addon/plugin helps designers to create unwrapped patterns of 3d models. It automatically makes animations in different manners, shows mesh-cut defects(places that are not able to unwrap with current cutting), shows different parts and allows designers to manipulate glue places. This tool is developed for both Blender and 3dsMax.</div>
+description: <div align="left">Toy2d (Hajmineh) is a set of interesting cardboard-craft kits together with how-to animations and AR interactions. Toy2d addon/plugin helps designers to create unwrapped patterns of 3d models. It automatically makes animations in different manners, shows mesh-cut defects(places that are not able to unwrap with current cutting), shows different parts, and allows designers to manipulate glue places. This tool is developed for both Blender and 3dsMax.</div>
 project: Toy2d (Hajmineh)
 project-link: 
 tools: ["Python.svg", "OpenGl.svg", "Blender.svg", "3dsMax.svg"]
