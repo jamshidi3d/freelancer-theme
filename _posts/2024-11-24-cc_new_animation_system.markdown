@@ -5,7 +5,7 @@ date: 2024-11-24
 img: cc_animsys.png
 alt: image-alt
 project-date: November 2024
-client: 
+client: QORPO
 category: Technical Animation
 title: Animation System for Third Person Shooter Game
 video: cc_new_animation_system.mp4
